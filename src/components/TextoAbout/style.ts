@@ -44,7 +44,10 @@ color: #fff;
 text-align: center;
 margin: 20px;
 font-size: 22px;
-@media (max-width: 350px) {
-    font-size: 13px;
+@media (max-width: 600px) {
+    font-size: 17px;
+}
+@media (max-width: 360px) {
+    font-size: 15px;
 }
 `;

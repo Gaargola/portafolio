@@ -5,8 +5,8 @@ export const H1 = styled.h1`
     justify-content: center;
     color: white;
     font-size: 30px;
-@media (max-width: 350px) {
-    font-size: 20px;
+@media (max-width: 360px) {
+    font-size: 22px;
 }
 `;
 
@@ -20,8 +20,11 @@ export const Img = styled.img`
     height: 600px;
     margin: 5px;
     border-radius: 20px;
-@media (max-width: 350px) {
-    height: 300px;
+@media (max-width: 600px) {
+    height: 450px;
+}
+@media (max-width: 450px) {
+    height: 350px;
 }
 `;
 
