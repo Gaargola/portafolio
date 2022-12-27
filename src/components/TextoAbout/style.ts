@@ -51,3 +51,11 @@ font-size: 22px;
     font-size: 15px;
 }
 `;
+
+export const A = styled.a`
+text-decoration: none;
+color: white;
+&:hover{
+    color: red;
+  };
+`;
